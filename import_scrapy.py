@@ -12,7 +12,7 @@ nltk.download("punkt")
 nltk.download("averaged_perceptron_tagger")
 
 # Initialize the ZenRowsClient with your API key and parameters
-zenrows_client = ZenRowsClient("a9b63948d66b35f3682a8a0ad4b6d051cb941e0e")
+zenrows_client = ZenRowsClient("API_KEY")
 
 # Define the URL of the webpage to scrape using ZenRows
 base_url = "https://bestcompany.com/health-insurance/company/bluecross-blueshield?page={page}#reviews"
