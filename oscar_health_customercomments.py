@@ -12,6 +12,7 @@ nltk.download("punkt")
 nltk.download("averaged_perceptron_tagger")
 
 # Initialize the ZenRowsClient with your API key and parameters
+# IMPORTANT! Obtain API KEY here (https://app.zenrows.com/)
 zenrows_client = ZenRowsClient("API_KEY")
 
 # Define the URL of the webpage to scrape using ZenRows
