@@ -15,7 +15,7 @@ nltk.download("averaged_perceptron_tagger")
 zenrows_client = ZenRowsClient("API_KEY")
 
 # Define the URL of the webpage to scrape using ZenRows
-base_url = "https://bestcompany.com/health-insurance/company/bluecross-blueshield?page={page}#reviews"
+base_url = "https://bestcompany.com/health-insurance/company/oscar?page={page}#reviews"
 
 # Define parameters for ZenRows request
 params = {"autoparse": "true"}
@@ -80,7 +80,7 @@ wordcloud.generate_from_frequencies(dict(top_100_adjectives))  # Use word freque
 plt.figure(figsize=(10, 5))
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
-plt.title("BlueShiled's Top 100")
+plt.title("Oscar Health's Top 100")
 plt.show()
 
 # Export top 100 words and their frequencies to a CSV file
