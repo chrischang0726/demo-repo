@@ -1,6 +1,6 @@
 # Web Scraping and WordCloud Generation
 
-This Python program is designed to scrape adjectives/nouns from a specified webpage, usually related to customer's online ratings/comments, and generate a WordCloud visualizing the top adjectives/nouns found on customer's comments. The program utilizes the ZenRows API for web scraping and the NLTK and WordCloud libraries for text processing and visualization.
+This Python program is designed to scrape adjectives/nouns from a specified webpage, usually related to customer's ratings/comments online, and generate a WordCloud visualizing the top adjectives/nouns found on customer's comments. The program utilizes the ZenRows API for web scraping and the NLTK and WordCloud libraries for text processing and visualization.
 
 ![image](https://github.com/chrischang0726/demo-repo/blob/8aaaac991e657a64497ab94efffefff84855cf1b/visual_example.jpg)
 
